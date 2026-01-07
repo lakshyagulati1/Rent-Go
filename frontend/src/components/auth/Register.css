@@ -1,0 +1,40 @@
+/* Register.css */
+
+/* Card wrapper */
+.register-card {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode styles triggered by .dark-mode on body */
+body.dark-mode .register-card {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+/* Form inputs dark mode */
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+  color: #aaa;
+}
+
+/* Fix label color in dark mode */
+body.dark-mode .form-label {
+  color: #ccc;
+}
+
+/* Fix alert messages */
+body.dark-mode .alert {
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+  border: 1px solid #555;
+}

@@ -1,0 +1,23 @@
+/* src/components/home/Home.css */
+
+.car-card {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode */
+body.bg-light .car-card {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Dark Mode */
+body.bg-dark .car-card {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+body.bg-dark .car-card .card-text,
+body.bg-dark .car-card .card-title {
+  color: #fff;
+}

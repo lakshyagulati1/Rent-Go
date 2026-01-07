@@ -1,0 +1,30 @@
+/* src/components/auth/Login.css */
+
+.login-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Light mode */
+body.bg-light .login-card {
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* Dark mode */
+body.bg-dark .login-card {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+body.bg-dark .login-card input,
+body.bg-dark .login-card select,
+body.bg-dark .login-card textarea {
+  background-color: #2a2a2a;
+  color: #fff;
+  border-color: #555;
+}
+
+body.bg-dark .login-card input::placeholder {
+  color: #ccc;
+}

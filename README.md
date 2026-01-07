@@ -1,5 +1,5 @@
 # 🚗 RentGo - Car Rental System
-**RentGo** is a full-stack Car Rental System built using **ReactJS** for the frontend and **Spring Boot** with **JWT authentication** for the backend.
+**RentGo** is a full-stack Car Rental System built using **HTML / CSS / JAVASCRIPT** for the frontend and **JAVA** for the backend.
 
 It offers features like user login, role-based access (Admin/Customer), car listings, bookings, and a modern responsive UI.
 
@@ -7,16 +7,17 @@ It offers features like user login, role-based access (Admin/Customer), car list
 
 | Layer     | Technology                        |
 |-----------|-----------------------------------|
-| Frontend  | ReactJS, Bootstrap CSS            |
-| Backend   | Spring Boot, Spring Security, JWT |
+| Frontend  | HTML, CSS, JAVASCRIPT             |
+| Backend   | JAVA                              |
 | Database  | MySQL                             |
-| Tools     | IntelliJ IDEA, VS Code, Postman   |
+| Testing   | Manual, Automation                |
+| Tools     | VS Code, Postman, Eclipse IDE     |
 
 ## 📁 Folder Structure
 
 RentGo/
-├── frontend/ → ReactJS app (UI & client logic)
-└── backend/ → Spring Boot app (APIs, Auth, DB)
+├── frontend/ - HTML,CSS,JAVASCRIPT
+└── backend/ - JAVA
 
 ---
 
@@ -31,13 +32,13 @@ RentGo/
 
 ## 🚀 How to Run
 
-### 📦 Backend (Spring Boot)
+### 📦 Backend (JAVA)
 
-1. Open `/backend` in IntelliJ IDEA
+1. Open `/backend` in JAVA
 2. Configure `application.properties` with your MySQL DB
 3. Run the project
 
-### 🌐 Frontend (ReactJS)
+### 🌐 Frontend (HTML/CSS/JAVASCRIPT)
 
 1. Open `/frontend` in VS Code
 2. Run:

@@ -7,16 +7,16 @@ It offers features like user login, role-based access (Admin/Customer), car list
 
 | Layer     | Technology                        |
 |-----------|-----------------------------------|
-| Frontend  | ReactJS, Bootstrap CSS            |
-| Backend   | Spring Boot, Spring Security, JWT |
+| Frontend  | HTML,CSS, JavaScript.             |
+| Backend   | JAVA , Srprin Boot.               |
 | Database  | MySQL                             |
-| Tools     | IntelliJ IDEA, VS Code, Postman   |
+| Tools     | VS Code, Postman                  |
 
 ## 📁 Folder Structure
 
 RentGo/
-├── frontend/ → ReactJS app (UI & client logic)
-└── backend/ → Spring Boot app (APIs, Auth, DB)
+├── frontend/ → JavaScript app (UI & client logic)
+└── backend/ → Java app (APIs, Auth, DB)
 
 ---
 
@@ -37,7 +37,7 @@ RentGo/
 2. Configure `application.properties` with your MySQL DB
 3. Run the project
 
-### 🌐 Frontend (ReactJS)
+### 🌐 Frontend (Html/CSS/JavaScript)
 
 1. Open `/frontend` in VS Code
 2. Run:

@@ -1,5 +1,5 @@
 # 🚗 RentGo - Car Rental System
-**RentGo** is a full-stack Car Rental System built using **ReactJS** for the frontend and **Spring Boot** with **JWT authentication** for the backend.
+**RentGo** is a full-stack Car Rental System built using **HTMl/CSS/JavaScript** for the frontend and **Spring Boot** with **JWT authentication** for the backend.
 
 It offers features like user login, role-based access (Admin/Customer), car listings, bookings, and a modern responsive UI.
 
